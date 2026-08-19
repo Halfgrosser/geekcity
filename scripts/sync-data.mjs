@@ -34,14 +34,18 @@ const manualEpisodes = [
 const channel = xml.replace(/<item>[\s\S]*$/u, "");
 const items = [...xml.matchAll(/<item>([\s\S]*?)<\/item>/gu)].map((match) => match[1]);
 const rssEpisodes = items
-  .map((item) => ({
-    guid: tag(item, "guid"),
-    number: tag(item, "itunes:episode"),
-    title: tag(item, "title"),
-    publication: toIsoDate(tag(item, "pubDate")),
-    link: tag(item, "link"),
-    duration: Number(tag(item, "itunes:duration")) || null,
-  }))
+  .map((item) => {
+    const topics = extractTopics(tag(item, "itunes:summary") || tag(item, "description"));
+    return {
+      guid: tag(item, "guid"),
+      number: tag(item, "itunes:episode"),
+      title: tag(item, "title"),
+      publication: toIsoDate(tag(item, "pubDate")),
+      link: tag(item, "link"),
+      duration: Number(tag(item, "itunes:duration")) || null,
+      ...(topics.length ? { topics } : {}),
+    };
+  })
   .filter((episode) => episode.title && episode.publication);
 const episodes = [
   ...rssEpisodes.map((episode) => {
@@ -100,6 +104,25 @@ function decodeEntities(value) {
     .replaceAll("&#39;", "'")
     .replace(/&#(\d+);/gu, (_, code) => String.fromCodePoint(Number(code)))
     .replace(/&#x([\da-f]+);/giu, (_, code) => String.fromCodePoint(Number.parseInt(code, 16)));
+}
+
+function extractTopics(value) {
+  const text = value
+    .replace(/<br\s*\/?>/giu, "\n")
+    .replace(/<\/?(?:p|li|ul|ol|div|h\d)[^>]*>/giu, "\n")
+    .replace(/<[^>]+>/gu, "")
+    .replaceAll("\r", "")
+    .replaceAll("\u00a0", " ")
+    .replace(/таймкоды\s*:?\s*(?=\d)/giu, "Таймкоды:\n")
+    .split("\n")
+    .map((line) => line.trim())
+    .filter(Boolean);
+
+  return text
+    .map((line) => line.match(/^(\d{1,2}[.:]\d{2}(?::\d{2})?)\s*(?:[-–—]\s*)?(.+)$/u))
+    .filter(Boolean)
+    .map((match) => ({ time: match[1].replaceAll(".", ":"), title: match[2].trim() }))
+    .filter((topic) => topic.title);
 }
 
 function toIsoDate(value) {
