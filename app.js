@@ -95,6 +95,11 @@ function showWeek(isoDate, found, state) {
           <div>
             <p class="episode-line__meta">${episode.number ? `Выпуск #${escapeHtml(episode.number)}` : "Спецвыпуск"}${episode.duration ? ` · ${formatDuration(episode.duration)}` : ""}</p>
             <h3>${escapeHtml(episode.title)}</h3>
+            ${episode.topics?.length ? `<ul class="episode-topics">${episode.topics
+              .map(
+                (topic) => `<li><time>${escapeHtml(topic.time)}</time><span>${escapeHtml(topic.title)}</span></li>`,
+              )
+              .join("")}</ul>` : ""}
           </div>
           ${episode.link ? `<a href="${escapeHtml(episode.link)}" target="_blank" rel="noreferrer" aria-label="Открыть выпуск «${escapeHtml(episode.title)}»">Слушать ↗</a>` : ""}
         </article>`,

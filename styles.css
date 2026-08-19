@@ -364,6 +364,29 @@ h2 {
   text-transform: uppercase;
 }
 
+.episode-topics {
+  display: grid;
+  gap: 8px;
+  margin: 18px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.episode-topics li {
+  display: grid;
+  grid-template-columns: 70px minmax(0, 1fr);
+  gap: 10px;
+  color: var(--muted);
+  font-size: 0.84rem;
+  line-height: 1.45;
+}
+
+.episode-topics time {
+  color: var(--red-dark);
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+}
+
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -527,6 +550,10 @@ h2 {
     align-items: flex-start;
     flex-direction: column;
     gap: 12px;
+  }
+
+  .episode-topics li {
+    grid-template-columns: 62px minmax(0, 1fr);
   }
 
   .footer {
