@@ -10,6 +10,14 @@ const xml = process.env.MAVE_RSS_FILE
   : await loadFeed(sourceUrl);
 const manualEpisodes = [
   {
+    guid: "manual-pilot-episode",
+    number: "0",
+    title: "Подкаст /без названия/. Пилотный выпуск. «Мстители: Финал»",
+    publication: "2019-05-07",
+    link: "https://geekcity.ru/podkast-bez-nazvaniya-pilotnyj-vypusk-mstiteli-final/",
+    duration: null,
+  },
+  {
     guid: "manual-episode-3",
     number: "3",
     title: "Подкаст «Чуть Выше Плинтуса». Выпуск 3. «E3, Люди Икс и митинги»",
@@ -19,6 +27,27 @@ const manualEpisodes = [
   },
 ];
 const episodeAnnotations = new Map([
+  [
+    "0",
+    {
+      topicsSource: "https://geekcity.ru/podkast-bez-nazvaniya-pilotnyj-vypusk-mstiteli-final/",
+      topics: [
+        { time: "00:00:00", title: "Вступление" },
+        { time: "00:01:48", title: "Что не так с возвращением Человека-Муравья" },
+        { time: "00:04:28", title: "Тор и его пузо" },
+        { time: "00:08:57", title: "Путешествия во времени и проблемы с этим" },
+        { time: "00:13:00", title: "Сколько раз мы плакали?" },
+        { time: "00:22:50", title: "Насколько достоин Капитан Америка" },
+        { time: "00:27:45", title: "Возвращение старых актеров" },
+        { time: "00:29:32", title: "ОПГ «Мстители» против Таноса" },
+        { time: "00:33:30", title: "В фильме нет эпика?" },
+        { time: "00:36:15", title: "Кого мы потеряли" },
+        { time: "00:37:19", title: "Такое не повторить" },
+        { time: "00:43:16", title: "Будущее MCU" },
+        { time: "00:58:40", title: "Подведение итогов и прощание" },
+      ],
+    },
+  ],
   [
     "3",
     {
@@ -187,7 +216,8 @@ const episodes = [
     .filter((manual) => !rssEpisodes.some((episode) => episode.number === manual.number))
     .map(annotateEpisode),
 ]
-  .sort((left, right) => left.publication.localeCompare(right.publication));
+  .sort((left, right) => left.publication.localeCompare(right.publication))
+  .map(renumberEpisode);
 
 if (episodes.length < 90) {
   throw new Error(`Only ${episodes.length} episodes parsed; refusing to overwrite data`);
@@ -207,6 +237,19 @@ console.log(`Saved ${episodes.length} episodes to ${output}`);
 
 function annotateEpisode(episode) {
   return { ...episode, ...(episodeAnnotations.get(episode.number) || {}) };
+}
+
+function renumberEpisode(episode) {
+  const previousNumber = Number(episode.number);
+  if (!Number.isInteger(previousNumber)) return episode;
+
+  const number = String(previousNumber + 1);
+  const title = episode.title.replace(
+    new RegExp(`(Выпуск\\s*(?:№\\s*)?)${previousNumber}(?!\\d)`, "iu"),
+    `$1${number}`,
+  );
+
+  return { ...episode, number, title };
 }
 
 async function loadFeed(url) {

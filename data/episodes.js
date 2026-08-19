@@ -5,9 +5,72 @@ window.__TRIKO_DATA__ = {
   "updatedAt": "2026-08-19",
   "episodes": [
     {
-      "guid": "9a717f59-99fd-4115-b24f-1a3abd5f5dc3",
+      "guid": "manual-pilot-episode",
       "number": "1",
-      "title": "Выпуск 1. «Игра Престолов», «Джон Уик», «Пикачу», Rammstein и байкерская романтика",
+      "title": "Подкаст /без названия/. Пилотный выпуск. «Мстители: Финал»",
+      "publication": "2019-05-07",
+      "link": "https://geekcity.ru/podkast-bez-nazvaniya-pilotnyj-vypusk-mstiteli-final/",
+      "duration": null,
+      "topicsSource": "https://geekcity.ru/podkast-bez-nazvaniya-pilotnyj-vypusk-mstiteli-final/",
+      "topics": [
+        {
+          "time": "00:00:00",
+          "title": "Вступление"
+        },
+        {
+          "time": "00:01:48",
+          "title": "Что не так с возвращением Человека-Муравья"
+        },
+        {
+          "time": "00:04:28",
+          "title": "Тор и его пузо"
+        },
+        {
+          "time": "00:08:57",
+          "title": "Путешествия во времени и проблемы с этим"
+        },
+        {
+          "time": "00:13:00",
+          "title": "Сколько раз мы плакали?"
+        },
+        {
+          "time": "00:22:50",
+          "title": "Насколько достоин Капитан Америка"
+        },
+        {
+          "time": "00:27:45",
+          "title": "Возвращение старых актеров"
+        },
+        {
+          "time": "00:29:32",
+          "title": "ОПГ «Мстители» против Таноса"
+        },
+        {
+          "time": "00:33:30",
+          "title": "В фильме нет эпика?"
+        },
+        {
+          "time": "00:36:15",
+          "title": "Кого мы потеряли"
+        },
+        {
+          "time": "00:37:19",
+          "title": "Такое не повторить"
+        },
+        {
+          "time": "00:43:16",
+          "title": "Будущее MCU"
+        },
+        {
+          "time": "00:58:40",
+          "title": "Подведение итогов и прощание"
+        }
+      ]
+    },
+    {
+      "guid": "9a717f59-99fd-4115-b24f-1a3abd5f5dc3",
+      "number": "2",
+      "title": "Выпуск 2. «Игра Престолов», «Джон Уик», «Пикачу», Rammstein и байкерская романтика",
       "publication": "2019-05-21",
       "link": "https://geekcity.mave.digital/ep-1",
       "duration": 4513,
@@ -48,8 +111,8 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "692e0398-7917-42bf-9499-6c6fa57f48aa",
-      "number": "2",
-      "title": "Выпуск 2. «Годзилла» и «Аладдин» горят, горят ясно",
+      "number": "3",
+      "title": "Выпуск 3. «Годзилла» и «Аладдин» горят, горят ясно",
       "publication": "2019-06-04",
       "link": "https://geekcity.mave.digital/ep-2",
       "duration": 5298,
@@ -106,8 +169,8 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "manual-episode-3",
-      "number": "3",
-      "title": "Подкаст «Чуть Выше Плинтуса». Выпуск 3. «E3, Люди Икс и митинги»",
+      "number": "4",
+      "title": "Подкаст «Чуть Выше Плинтуса». Выпуск 4. «E3, Люди Икс и митинги»",
       "publication": "2019-06-18",
       "link": "",
       "duration": null,
@@ -156,8 +219,8 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "67fdfada-dcd4-45e9-88aa-87a46219c5f7",
-      "number": "4",
-      "title": "Выпуск 4. GeekCity 7 лет!",
+      "number": "5",
+      "title": "Выпуск 5. GeekCity 7 лет!",
       "publication": "2019-07-02",
       "link": "https://geekcity.mave.digital/ep-4",
       "duration": 3752,
@@ -210,8 +273,8 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "0a1011a4-739b-4d4e-886d-d4755721263d",
-      "number": "5",
-      "title": "Выпуск 5. Человек-Паук и Магия (и Конкурс!)",
+      "number": "6",
+      "title": "Выпуск 6. Человек-Паук и Магия (и Конкурс!)",
       "publication": "2019-07-10",
       "link": "https://geekcity.mave.digital/ep-5",
       "duration": 3105,
@@ -240,8 +303,8 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "6b07aef5-e95f-4eff-9788-0e524fe56ff9",
-      "number": "6",
-      "title": "Выпуск 6. «Король Лев» и куча сериалов",
+      "number": "7",
+      "title": "Выпуск 7. «Король Лев» и куча сериалов",
       "publication": "2019-07-18",
       "link": "https://geekcity.mave.digital/ep-6",
       "duration": 3293,
@@ -270,8 +333,8 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "ea12089c-8200-4b6d-b27f-1f94c034c6b5",
-      "number": "7",
-      "title": "Выпуск 7. Итоги Comic-Con 2019",
+      "number": "8",
+      "title": "Выпуск 8. Итоги Comic-Con 2019",
       "publication": "2019-08-01",
       "link": "https://geekcity.mave.digital/ep-7",
       "duration": 4341,
@@ -324,8 +387,8 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "08377b34-3ce2-4cde-b640-5cdb072ad6fc",
-      "number": "8",
-      "title": "Выпуск 8. Бойцовские пацаны",
+      "number": "9",
+      "title": "Выпуск 9. Бойцовские пацаны",
       "publication": "2019-08-11",
       "link": "https://geekcity.mave.digital/ep-8",
       "duration": 3395,
@@ -366,8 +429,8 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "4181b378-e24b-4d52-93f1-bdf6f0473fef",
-      "number": "9",
-      "title": "Выпуск 9. Однажды в... «Хоббс и Шоу»",
+      "number": "10",
+      "title": "Выпуск 10. Однажды в... «Хоббс и Шоу»",
       "publication": "2019-08-15",
       "link": "https://geekcity.mave.digital/ep-9",
       "duration": 2547,
@@ -392,8 +455,8 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "c0da2453-31a3-46b0-b62d-1f8950fe35ef",
-      "number": "10",
-      "title": "Выпуск 10. Конфликт Disney и Sony. Его причины и последствия для Человека-Паука",
+      "number": "11",
+      "title": "Выпуск 11. Конфликт Disney и Sony. Его причины и последствия для Человека-Паука",
       "publication": "2019-09-05",
       "link": "https://geekcity.mave.digital/ep-10",
       "duration": 3928,
@@ -402,8 +465,8 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "48aa7cdc-014d-4bca-91ab-d587f37293cd",
-      "number": "11",
-      "title": "Выпуск 11. Мединский и клоун",
+      "number": "12",
+      "title": "Выпуск 12. Мединский и клоун",
       "publication": "2019-09-12",
       "link": "https://geekcity.mave.digital/ep-11",
       "duration": 2489,
@@ -428,8 +491,8 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "815f8a60-183a-403c-b131-d337c4cd801a",
-      "number": "12",
-      "title": "Выпуск 12. Жизнь без пиратства в России",
+      "number": "13",
+      "title": "Выпуск 13. Жизнь без пиратства в России",
       "publication": "2019-09-19",
       "link": "https://geekcity.mave.digital/ep-12",
       "duration": 2432,
@@ -462,8 +525,8 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "b9f59406-48b6-4b42-adb6-73677d87e0d7",
-      "number": "13",
-      "title": "Выпуск 13. День Бэтмена",
+      "number": "14",
+      "title": "Выпуск 14. День Бэтмена",
       "publication": "2019-09-27",
       "link": "https://geekcity.mave.digital/ep-13",
       "duration": 3491,
@@ -492,8 +555,8 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "ee527f4b-bdf9-47f1-9740-425d2d0c755d",
-      "number": "14",
-      "title": "Выпуск 14. К Звездам между двумя папоротниками с каплей Джокера",
+      "number": "15",
+      "title": "Выпуск 15. К Звездам между двумя папоротниками с каплей Джокера",
       "publication": "2019-10-03",
       "link": "https://geekcity.mave.digital/ep-14",
       "duration": 2834,
@@ -526,8 +589,8 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "97a6a1ba-3212-4e43-85da-803520adf5c7",
-      "number": "15",
-      "title": "Выпуск 15. Почему «Джокер» настолько хорош?",
+      "number": "16",
+      "title": "Выпуск 16. Почему «Джокер» настолько хорош?",
       "publication": "2019-10-10",
       "link": "https://geekcity.mave.digital/ep-15",
       "duration": 2351,
@@ -536,8 +599,8 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "27732075-39e6-4e1f-b3cb-f106da7ae1be",
-      "number": "16",
-      "title": "Выпуск 16. Bubble - путь к успеху",
+      "number": "17",
+      "title": "Выпуск 17. Bubble - путь к успеху",
       "publication": "2019-10-25",
       "link": "https://geekcity.mave.digital/ep-16",
       "duration": 3248,
@@ -582,8 +645,8 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "292fa41e-a331-421b-825b-8b8eecaf95da",
-      "number": "17",
-      "title": "Выпуск 17. В чем гениальность «Хранителей»?",
+      "number": "18",
+      "title": "Выпуск 18. В чем гениальность «Хранителей»?",
       "publication": "2019-11-07",
       "link": "https://geekcity.mave.digital/ep-17",
       "duration": 2803,
@@ -609,8 +672,8 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "90e7d973-6834-4363-a202-158e601b74ca",
-      "number": "18",
-      "title": "Выпуск 18. Терминатор, который снова не смог",
+      "number": "19",
+      "title": "Выпуск 19. Терминатор, который снова не смог",
       "publication": "2019-11-21",
       "link": "https://geekcity.mave.digital/ep-18",
       "duration": 1653,
@@ -619,7 +682,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "c2d65d23-2b53-41bc-ab72-f6854d5df6a8",
-      "number": "19",
+      "number": "20",
       "title": "Подкаст возвращается! Обсуждаем нового «Паука» и подводим итоги года",
       "publication": "2021-12-27",
       "link": "https://geekcity.mave.digital/ep-19",
@@ -652,7 +715,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "f28f6d41-cce4-4382-a2ba-1dfb7d3aa700",
-      "number": "20",
+      "number": "21",
       "title": "«Возвращение в Хогвартс». За что мы любим вселенную Гарри Поттера и что от нее ждем?",
       "publication": "2022-01-10",
       "link": "https://geekcity.mave.digital/ep-20",
@@ -678,7 +741,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "07fe3820-ba83-4b56-90f7-9660484ec5eb",
-      "number": "21",
+      "number": "22",
       "title": "Почему мы ненавидим перезапуски любимых франшиз?! Самый душный выпуск!",
       "publication": "2022-01-24",
       "link": "https://geekcity.mave.digital/ep-21",
@@ -708,7 +771,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "ffef0b62-3beb-4e12-b992-a14744fef35a",
-      "number": "22",
+      "number": "23",
       "title": "Как скоро запретят токсичность?! Самый токсичный выпуск! | Звездные войны, Снайдеркат, Властелин Колец",
       "publication": "2022-02-08",
       "link": "https://geekcity.mave.digital/ep-22",
@@ -754,7 +817,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "222b9c00-06e6-47da-9c0d-53bda77897ab",
-      "number": "23",
+      "number": "24",
       "title": "Что помогает пережить темные времена?",
       "publication": "2022-04-07",
       "link": "https://geekcity.mave.digital/ep-23",
@@ -780,7 +843,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "f5e85320-9aa0-4256-b724-af7a9af5007c",
-      "number": "24",
+      "number": "25",
       "title": "Почему все игровые экранизации такой шлак? | «Анчартед», Halo, The Last of Us",
       "publication": "2022-04-13",
       "link": "https://geekcity.mave.digital/ep-24",
@@ -822,7 +885,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "0cf0cd06-a020-464d-8a14-dce9c94b5d64",
-      "number": "25",
+      "number": "26",
       "title": "«Бэтмен» - что с ним не так?!",
       "publication": "2022-04-22",
       "link": "https://geekcity.mave.digital/ep-25",
@@ -860,7 +923,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "c73216bd-e2d5-4d9d-a901-62359d103e58",
-      "number": "26",
+      "number": "27",
       "title": "Лунный Рыцарь и Доктор Стрэндж – кто более странный?",
       "publication": "2022-05-20",
       "link": "https://geekcity.mave.digital/ep-26",
@@ -890,7 +953,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "9382d907-70a8-465e-9d92-a57bccde0e17",
-      "number": "27",
+      "number": "28",
       "title": "Плохой «Оби-Ван» и потрясающие «Странные дела» - обсуждаем главные сериалы весны и лета",
       "publication": "2022-06-15",
       "link": "https://geekcity.mave.digital/ep-27",
@@ -932,7 +995,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "026b4b74-2055-49c6-9370-67b383819d12",
-      "number": "28",
+      "number": "29",
       "title": "ТОП-20 отсылок в «Мультивселенной безумия» (на самом деле нет)",
       "publication": "2022-06-30",
       "link": "https://geekcity.mave.digital/ep-28",
@@ -966,7 +1029,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "01d4872c-0fbf-438c-883d-a7cb83a6b02e",
-      "number": "29",
+      "number": "30",
       "title": "Кто более кринжовый - «Женщина Халк», новый «Тор» или Евгений Понасенков*? Отвечаем в ламповом оффлайновом выпуске",
       "publication": "2022-09-12",
       "link": "https://geekcity.mave.digital/ep-29",
@@ -996,7 +1059,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "937d3b50-03ba-44b6-aaa7-455d4f29a5f3",
-      "number": "30",
+      "number": "31",
       "title": "Куда мы пропали на осень? | Черные Адамы и Пантеры, Андор и многое другое",
       "publication": "2022-12-23",
       "link": "https://geekcity.mave.digital/ep-30",
@@ -1030,7 +1093,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "1817a357-dc8c-41f4-8d0e-eb768277af4c",
-      "number": "31",
+      "number": "32",
       "title": "Возвращение подкаста! «Флэш», «Трансформеры», «Секретное Вторжение», «Джон Уик 4»",
       "publication": "2023-07-25",
       "link": "https://geekcity.mave.digital/ep-31",
@@ -1056,7 +1119,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "05da0071-1c25-4ae0-9c2c-2abdfddefa55",
-      "number": "32",
+      "number": "33",
       "title": "«Барби» и «Оппенгеймер» забыты | «Звездный путь», «Кентавр», «Захваченный рейс» и «Птичий короб»",
       "publication": "2023-08-09",
       "link": "https://geekcity.mave.digital/ep-32",
@@ -1094,7 +1157,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "1d00b9e9-8ecd-45a5-944f-c1be2e35e9c1",
-      "number": "33",
+      "number": "34",
       "title": "Леди Баг vs. Зомби-Стриптизерш | «Асока», Baldur’s Gate 3, «Элементарно»",
       "publication": "2023-08-30",
       "link": "https://geekcity.mave.digital/ep-33",
@@ -1128,7 +1191,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "abd5a842-1973-465c-b07a-481a37c19461",
-      "number": "34",
+      "number": "35",
       "title": "«Барбигеймер» в России! | «One Piece», «Индиана Джонс», «Черепашки-ниндзя», «Убийца»",
       "publication": "2023-09-14",
       "link": "https://geekcity.mave.digital/ep-34",
@@ -1166,7 +1229,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "3f93c55d-2b72-4ae9-a087-5f336a7ec235",
-      "number": "35",
+      "number": "36",
       "title": "Mortal Kombat 1, «Синий жук», «Дэрил Диксон» и «Папины дочки»",
       "publication": "2023-10-01",
       "link": "https://geekcity.mave.digital/ep-35",
@@ -1200,7 +1263,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "dbaba8c3-5f05-46c5-b17f-a84ad64603c9",
-      "number": "36",
+      "number": "37",
       "title": "Люди-Икс в киновселенной Marvel, кто настоящий гик, Sex Education, «Поколение Ви», «Гран Туризмо»",
       "publication": "2023-10-05",
       "link": "https://geekcity.mave.digital/ep-36",
@@ -1234,7 +1297,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "7ff4513a-529b-41ed-84d2-5db9f2265856",
-      "number": "37",
+      "number": "38",
       "title": "Второй сезон «Локи», «Чаки», «Майор Гром: Игра» и «Граф»-Пиночет",
       "publication": "2023-10-11",
       "link": "https://geekcity.mave.digital/ep-37",
@@ -1276,7 +1339,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "e0152913-04d0-4ed3-a0f5-c7daf24654d2",
-      "number": "38",
+      "number": "39",
       "title": "Spider Man 2, актуальные хорроры и «Миссия: Невыполнима»",
       "publication": "2023-10-29",
       "link": "https://geekcity.mave.digital/ep-38",
@@ -1306,7 +1369,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "2f6a8c89-6583-4c33-acbe-4f5355ae3064",
-      "number": "39",
+      "number": "40",
       "title": "Alan Wake 2, Robocop, FNAF, «Убийца» и финал «Атаки Титанов»",
       "publication": "2023-11-11",
       "link": "https://geekcity.mave.digital/ep-39",
@@ -1348,7 +1411,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "185f30ba-2770-4252-89cc-cf0df7270371",
-      "number": "40",
+      "number": "41",
       "title": "«Капитан Марвел 2», «Скотт Пилигрим», «Неуязвимый» и сериальная «Годзилла»",
       "publication": "2023-11-24",
       "link": "https://geekcity.mave.digital/ep-40",
@@ -1394,7 +1457,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "d4d59a48-1247-44b7-9602-3819ccae8608",
-      "number": "41",
+      "number": "42",
       "title": "«Наполеон», новый Миядзаки, спешалы «Доктор Кто» и «Леди Баг», проблемные доставки",
       "publication": "2023-12-04",
       "link": "https://geekcity.mave.digital/ep-41",
@@ -1428,7 +1491,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "58f115a5-3c32-40cc-9f10-8a4d20312c8e",
-      "number": "42",
+      "number": "43",
       "title": "«Слово пацана», «Голодные игры», возвращение Silent Hill и пусси-шоу в Таиланде",
       "publication": "2023-12-16",
       "link": "https://geekcity.mave.digital/ep-42",
@@ -1454,7 +1517,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "24608deb-8cd0-4066-ad4d-b02d17e1a39d",
-      "number": "43",
+      "number": "44",
       "title": "Лучшие фильмы и сериалы 2023, «Мятежная луна», «Букины» и конец вселенной DC",
       "publication": "2023-12-27",
       "link": "https://geekcity.mave.digital/ep-43",
@@ -1488,7 +1551,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "98bd3a91-c78f-4eb6-8567-6fc6b17644a9",
-      "number": "44",
+      "number": "45",
       "title": "Ровный «Аквамен 2», неудачное «Эхо», «Мастер и Маргарита», «Вонка»",
       "publication": "2024-02-07",
       "link": "https://geekcity.mave.digital/ep-44",
@@ -1522,7 +1585,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "9c8dc26f-cc75-4894-8d6f-5d80d59aef33",
-      "number": "45",
+      "number": "46",
       "title": "Нам надоели кинокомиксы. Почему в жанре застой и что с этим делать?",
       "publication": "2024-02-15",
       "link": "https://geekcity.mave.digital/ep-45",
@@ -1531,7 +1594,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "47812938-1b96-4605-a40a-354e832be6a9",
-      "number": "46",
+      "number": "47",
       "title": "«Дюна 2», «Мадам Паутина», Helldivers II и итоги «Оскара»",
       "publication": "2024-03-15",
       "link": "https://geekcity.mave.digital/ep-46",
@@ -1569,7 +1632,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "248166ac-edca-4c66-8502-49c234ddbeed",
-      "number": "47",
+      "number": "48",
       "title": "Fallout, «Люди Икс» и несколько хороших фильмов весны",
       "publication": "2024-05-06",
       "link": "https://geekcity.mave.digital/ep-47",
@@ -1603,7 +1666,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "c1e7c246-1a92-4beb-8d83-ec07c37326db",
-      "number": "48",
+      "number": "49",
       "title": "Новый Гай Ричи, «Годзилла: Минус один», «Марс экспресс» и «Эбигейл»",
       "publication": "2024-05-15",
       "link": "https://geekcity.mave.digital/ep-48",
@@ -1629,7 +1692,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "368a856a-21cb-497a-af7d-0e118af511af",
-      "number": "49",
+      "number": "50",
       "title": "«Майор Гром: Игра», «Фуриоса», «Каскадеры»",
       "publication": "2024-06-10",
       "link": "https://geekcity.mave.digital/ep-49",
@@ -1655,7 +1718,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "38272994-cfe3-4ab5-91f6-bafa053fb20e",
-      "number": "50",
+      "number": "51",
       "title": "«Аколит», «Головоломка 2» «Дом дракона», «Пацаны» и тапание в хомяка",
       "publication": "2024-06-22",
       "link": "https://geekcity.mave.digital/ep-50",
@@ -1681,7 +1744,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "7eab076c-a1b1-4c53-bccd-9f2d5388695d",
-      "number": "51",
+      "number": "52",
       "title": "«Тихое место: День первый», «Медведь», «Кадавры» и «ВелоциПастор»",
       "publication": "2024-07-08",
       "link": "https://geekcity.mave.digital/ep-51",
@@ -1711,7 +1774,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "5c917bc9-f40f-496d-9497-a10b7901f9cf",
-      "number": "52",
+      "number": "53",
       "title": "Дауни – Доктор Дум, «Дэдпул и Росомаха», «Бордерлендс» и «Собиратель душ»",
       "publication": "2024-08-11",
       "link": "https://geekcity.mave.digital/ep-52",
@@ -1737,7 +1800,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "e2ee8e0b-5f0a-4607-ac2d-16f8e1225bd9",
-      "number": "53",
+      "number": "54",
       "title": "Будущее Disney, анимационные «Хранители», мультсериал «Бэтмен» Брюса Тимма",
       "publication": "2024-08-18",
       "link": "https://geekcity.mave.digital/ep-53",
@@ -1763,7 +1826,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "58a3f48d-5aad-4b28-9d67-d14bd719bf57",
-      "number": "54",
+      "number": "55",
       "title": "«Чужой: Ромул», «Ворон», «Планета обезьян: Новое царство»",
       "publication": "2024-08-30",
       "link": "https://geekcity.mave.digital/ep-54",
@@ -1785,7 +1848,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "d8f185a0-c4be-4809-94ae-a333eebaab22",
-      "number": "55",
+      "number": "56",
       "title": "Как издавались комиксы DC в России? Интервью с выпускающим редактором «Азбуки»",
       "publication": "2024-09-16",
       "link": "https://geekcity.mave.digital/ep-55",
@@ -1847,7 +1910,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "0bc4ca75-ead4-49be-8d47-888610db67d0",
-      "number": "56",
+      "number": "57",
       "title": "Киновселенная Bubble, Space Marine 2, Astro Bot, «Битлджус 2», «Хеллбой»",
       "publication": "2024-09-23",
       "link": "https://geekcity.mave.digital/ep-56",
@@ -1885,7 +1948,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "bac4ad87-764c-4c85-a076-e1a97e79aaaf",
-      "number": "57",
+      "number": "58",
       "title": "Актриса дубляжа Алена Андронова — о профессии, проблемах ИИ и особенностях озвучки игр и аниме",
       "publication": "2024-10-01",
       "link": "https://geekcity.mave.digital/ep-57",
@@ -1939,7 +2002,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "1ec4842f-ba72-439f-89e1-4fba961070f6",
-      "number": "58",
+      "number": "59",
       "title": "«Пингвин», «Агата», «Субстанция» и «Платформа 2»",
       "publication": "2024-10-13",
       "link": "https://geekcity.mave.digital/ep-58",
@@ -1965,7 +2028,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "3e907714-52d5-47c2-8b9f-4edf6a062131",
-      "number": "59",
+      "number": "60",
       "title": "«Джокер 2», Silent Hill 2, Absolute Batman, «Ужасающий 3»",
       "publication": "2024-10-21",
       "link": "https://geekcity.mave.digital/ep-59",
@@ -1991,7 +2054,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "e2e48643-4601-40d2-a4f6-f394764d3a45",
-      "number": "60",
+      "number": "61",
       "title": "Как делают игры в 2024 году. Гость: Илья Бабичев",
       "publication": "2024-11-08",
       "link": "https://geekcity.mave.digital/ep-60",
@@ -2057,7 +2120,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "67f6e729-5555-4764-824e-da97b053c1f8",
-      "number": "61",
+      "number": "62",
       "title": "«Веном 3», «Гладиатор 2», «Дюна: Пророчество» и «Трансформеры: Начало»",
       "publication": "2024-12-01",
       "link": "https://geekcity.mave.digital/ep-61",
@@ -2087,7 +2150,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "e3c5dc4c-7bd3-4784-ac84-c4534895aa94",
-      "number": "62",
+      "number": "63",
       "title": "«Монстры-коммандос», Skelton Crew, «Паддингтон в Перу», «Улыбка 2»",
       "publication": "2024-12-13",
       "link": "https://geekcity.mave.digital/ep-62",
@@ -2117,7 +2180,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "b0875e46-ec8c-43a9-a720-9a1ce16ca74c",
-      "number": "63",
+      "number": "64",
       "title": "Роман Папсуев: «Сказки старой Руси» во всех проявлениях",
       "publication": "2024-12-24",
       "link": "https://geekcity.mave.digital/ep-63",
@@ -2137,7 +2200,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "dce0861b-32c6-4535-abb7-e33dc9e161a6",
-      "number": "64",
+      "number": "65",
       "title": "Итоги года 2024 — лучшие фильмы, сериалы, игры и не только",
       "publication": "2024-12-30",
       "link": "https://geekcity.mave.digital/ep-65",
@@ -2231,7 +2294,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "2d195bce-07f3-49f0-a465-82d7f821c1bb",
-      "number": "65",
+      "number": "66",
       "title": "«Крейвен-Охотник», «Носферату», «Соник 3 в кино» и «Киберслав»",
       "publication": "2025-02-02",
       "link": "https://geekcity.mave.digital/ep-66",
@@ -2261,7 +2324,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "d31252f2-d2fd-4fef-a8ec-11d8cf5a1b6e",
-      "number": "66",
+      "number": "67",
       "title": "Kingdom Come: Deliverance 2, Премьеры Marvel 2025 года, второй сезон «Разделения»",
       "publication": "2025-02-13",
       "link": "https://geekcity.mave.digital/ep-67",
@@ -2283,7 +2346,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "e9e2ebd3-2abb-4151-a932-78cab966f902",
-      "number": "67",
+      "number": "68",
       "title": "«Капитан Америка: Новый мир», «Обезьяна», «Ущелье», «Пророк»",
       "publication": "2025-03-03",
       "link": "https://geekcity.mave.digital/ep-68",
@@ -2313,7 +2376,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "9ed8a80d-a307-4128-87a6-7a3cf0455086",
-      "number": "68",
+      "number": "69",
       "title": "«Сорвиголова» вернулся, итоги Оскара 2025, «Компаньон», «Рай»",
       "publication": "2025-03-12",
       "link": "https://geekcity.mave.digital/ep-69",
@@ -2339,7 +2402,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "87932664-46df-4381-84ad-03e0a7fc258e",
-      "number": "69",
+      "number": "70",
       "title": "Lady Melamori — о косплее и эрокосплее",
       "publication": "2025-03-21",
       "link": "https://geekcity.mave.digital/ep-70",
@@ -2417,7 +2480,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "889dac92-faca-4f9f-9e74-8d117d39db29",
-      "number": "70",
+      "number": "71",
       "title": "Анимационный «Человек-Паук», финал «Разделения», Split Fiction и «Бэтмен против Брежнева»",
       "publication": "2025-03-28",
       "link": "https://geekcity.mave.digital/ep-71",
@@ -2447,7 +2510,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "02709a05-b9c4-4877-8ca0-8d713948c2b8",
-      "number": "71",
+      "number": "72",
       "title": "«Андор», «Сорвиголова», Clair Obscur: Expedition 33 и «Одни из Нас»",
       "publication": "2025-05-27",
       "link": "https://geekcity.mave.digital/ep-72",
@@ -2478,7 +2541,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "b9672de0-074e-4496-9387-b8ca1b506935",
-      "number": "72",
+      "number": "73",
       "title": "«Громовержцы*», Doom: The Dark Ages, «Minecraft в кино» и «Грешники»",
       "publication": "2025-06-06",
       "link": "https://geekcity.mave.digital/ep-73",
@@ -2513,7 +2576,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "e30ba469-8167-4ad5-814c-85d6101aeffc",
-      "number": "73",
+      "number": "74",
       "title": "Devil May Cry, «Микки-17», InZOI и «Киностудия»: винтажный подкаст «Мужчины в трико»",
       "publication": "2025-07-03",
       "link": "https://geekcity.mave.digital/ep-74",
@@ -2547,7 +2610,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "2993d4b8-5c9d-44e0-a2b9-f7eb9d598353",
-      "number": "74",
+      "number": "75",
       "title": "«Железное Сердце», «Лило и Стич», «Как приручить Дракона», «Пункт Назначения» и «Акира»",
       "publication": "2025-07-09",
       "link": "https://geekcity.mave.digital/ep-75",
@@ -2581,7 +2644,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "87ddf735-43e1-4bd7-946d-d710d3982f1d",
-      "number": "75",
+      "number": "76",
       "title": "«28 лет спустя», «Игра в Кальмара», «Балерина», The Alters, портативный гейминг и ужастик А24",
       "publication": "2025-07-15",
       "link": "https://geekcity.mave.digital/ep-76",
@@ -2615,7 +2678,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "31b30ab4-8273-4495-b533-07a4f5a09a6f",
-      "number": "76",
+      "number": "77",
       "title": "Даниил Ветлужских: сценарист и переводчик комиксов Bubble, Marvel и других. Гик, который смог",
       "publication": "2025-07-29",
       "link": "https://geekcity.mave.digital/ep-77",
@@ -2657,7 +2720,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "44432e6f-e028-4fb2-ba39-ff66448971bc",
-      "number": "77",
+      "number": "78",
       "title": "«Супермен», сафари в Африке и охота за потерянным винилом Alan Wake 2",
       "publication": "2025-08-03",
       "link": "https://geekcity.mave.digital/ep-78",
@@ -2679,7 +2742,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "c2284342-cc86-4811-b86a-3c2418ef6698",
-      "number": "78",
+      "number": "79",
       "title": "«Фантастическая Четверка: Первые Шаги», гастрономический лайфхак и причина бросить Death Stranding 2",
       "publication": "2025-08-10",
       "link": "https://geekcity.mave.digital/ep-79",
@@ -2725,7 +2788,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "b94d53aa-2fd6-405e-9dd3-6f8b0c28b111",
-      "number": "79",
+      "number": "80",
       "title": "«Миротворец», «Орудия», Nintendo Switch 2, спасение собак и приключения в Калининграде",
       "publication": "2025-08-30",
       "link": "https://geekcity.mave.digital/ep-80",
@@ -2759,7 +2822,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "685cc580-059c-43f1-94cd-5ce9b841bbc3",
-      "number": "80",
+      "number": "81",
       "title": "«Голый Пистолет», «Токсичный Мститель», «Алиса в Пограничье», в чём прикол винила и другие истории",
       "publication": "2025-09-09",
       "link": "https://geekcity.mave.digital/ep-81",
@@ -2805,7 +2868,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "4e40af3a-4251-4c72-9bb0-6137c66a7816",
-      "number": "81",
+      "number": "82",
       "title": "«Долгая Прогулка», «Рыжая Соня», «Выход 8», «Чужой: Земля», F1, «Я знаю, что вы сделали прошлым летом» и не только",
       "publication": "2025-09-23",
       "link": "https://geekcity.mave.digital/ep-82",
@@ -2859,7 +2922,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "99715ba4-008f-4c13-9da1-1a9a0546c58b",
-      "number": "82",
+      "number": "83",
       "title": "«Marvel Зомби», Ghost of Yotei, «Миротворец», «Битва за Битвой», Cronos: The New Dawn",
       "publication": "2025-10-14",
       "link": "https://geekcity.mave.digital/ep-83",
@@ -2897,7 +2960,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "91a2f4e5-d40a-47ef-b254-ca8469d987a7",
-      "number": "83",
+      "number": "84",
       "title": "Battlefield 6, «Истребитель Демонов: Бесконечная Крепость», «Искупление» и другой «Песочный Человек»",
       "publication": "2025-10-23",
       "link": "https://geekcity.mave.digital/ep-84",
@@ -2935,7 +2998,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "99413d40-c410-423a-ae14-6d911aafa34e",
-      "number": "84",
+      "number": "85",
       "title": "«Трон: Арес», Dispatch, «Оно: Добро пожаловать в Дерри», Ninja Gaiden 4 и лучший сериал 2025 года",
       "publication": "2025-11-08",
       "link": "https://geekcity.mave.digital/ep-85",
@@ -2985,7 +3048,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "345a0402-6847-4ffa-ad3d-90eb195646d3",
-      "number": "85",
+      "number": "86",
       "title": "«Франкенштейн», «Одна из многих», «Чёрный телефон 2», «Проект „Аве Мария“» и «Атака Куриных Зомби»",
       "publication": "2025-11-29",
       "link": "https://geekcity.mave.digital/ep-86",
@@ -3023,7 +3086,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "809d70c2-8183-4b4e-a789-8c47127f0d02",
-      "number": "86",
+      "number": "87",
       "title": "«Очень Странные Дела», Dispatch, «Зверополис 2», «Хищник: Планета Смерти» и приключения в Японии",
       "publication": "2025-12-13",
       "link": "https://geekcity.mave.digital/ep-87",
@@ -3073,7 +3136,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "5461b15f-1b01-4687-b130-7cad520fd314",
-      "number": "87",
+      "number": "88",
       "title": "Анастасия Ковалева — продюсер игры Dispatch о том, как создавалась главная супергероика 2025 года",
       "publication": "2025-12-28",
       "link": "https://geekcity.mave.digital/ep-88",
@@ -3195,7 +3258,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "2abf88cb-ee4d-4795-80c4-6c9aa6db05e4",
-      "number": "88",
+      "number": "89",
       "title": "Итоги 2025 года — лучшие фильмы, сериалы, игры по версии подкаста «Мужчины в трико»",
       "publication": "2025-12-30",
       "link": "https://geekcity.mave.digital/ep-89",
@@ -3305,7 +3368,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "eaf1c393-5659-480c-b9bc-c58d8bcef4a5",
-      "number": "89",
+      "number": "90",
       "title": "«Майор Гром», «Чудо-Человек», «Аватар 3», «Горничная», «28 лет спустя: Храм Костей», Сайлент Хилл, Fallout и многое другое",
       "publication": "2026-02-10",
       "link": "https://geekcity.mave.digital/ep-90",
@@ -3375,7 +3438,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "525595ad-3a2a-4438-9ad6-94e6fc609346",
-      "number": "90",
+      "number": "91",
       "title": "«Грозовой Перевал», «Чудо-Человек», «Хамнет», Fallout 4, Black Mesa, Overwatch и другие актуальные темы",
       "publication": "2026-02-20",
       "link": "https://geekcity.mave.digital/ep-91",
@@ -3433,7 +3496,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "28294467-1c8f-4541-b4df-0868e24a3f0a",
-      "number": "91",
+      "number": "92",
       "title": "Resident Evil Requiem, «Крик 7», «28 лет спустя: Храм Костей», «Молодой Шерлок», «Рай» и новые Gorillaz",
       "publication": "2026-03-15",
       "link": "https://geekcity.mave.digital/ep-92",
@@ -3487,7 +3550,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "aa898bcf-38a0-42c6-bae2-e57678f3e19a",
-      "number": "92",
+      "number": "93",
       "title": "Flarrow Films о пиратской и официальной озвучках, РКН, Red Head Sound, тех самых голосах и работе студии дубляжа в России",
       "publication": "2026-03-29",
       "link": "https://geekcity.mave.digital/ep-93",
@@ -3573,7 +3636,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "76be96d8-cc95-4e98-a1f9-cb5a94b9376b",
-      "number": "93",
+      "number": "94",
       "title": "«Проект “Конец Света\"», «Пацаны», «Сорвиголова: Рождённый заново» и фестиваль Кыштымского Карлика",
       "publication": "2026-04-15",
       "link": "https://geekcity.mave.digital/ep-94",
@@ -3619,7 +3682,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "2fb380a8-cb0b-408f-8bcc-b66459b05136",
-      "number": "94",
+      "number": "95",
       "title": "Даша из Несладко - где встретить Канье Уэста и сколько стоит музыкальный фестиваль в 2026 году",
       "publication": "2026-04-25",
       "link": "https://geekcity.mave.digital/ep-95",
@@ -3709,7 +3772,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "08c924d4-f73b-447a-9b07-359d168e64d6",
-      "number": "95",
+      "number": "96",
       "title": "«Неуязвимый», финал Atomic Heart, «Вот это драма!», «Они убьют тебя», Pragmata, Saros и другое",
       "publication": "2026-05-16",
       "link": "https://geekcity.mave.digital/ep-96",
@@ -3763,7 +3826,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "570e8f0c-3193-4fd3-9fc7-1215bf7a8bf2",
-      "number": "96",
+      "number": "97",
       "title": "«Пацаны» всё, «Каратель: Последнее убийство», 007: First Light, «Паук-Нуар» и Devil May Cry 2",
       "publication": "2026-06-09",
       "link": "https://geekcity.mave.digital/ep-97",
@@ -3801,7 +3864,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "ef5d123f-4542-47a0-9ae2-4df0d7bebe8b",
-      "number": "97",
+      "number": "98",
       "title": "«Мандалорец и Грогу», «Закулисье реальности», «Майкл», LEGO Batman: Legacy of the Dark Knight и прочее",
       "publication": "2026-06-22",
       "link": "https://geekcity.mave.digital/ep-98",
@@ -3843,7 +3906,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "bdd0d3ce-e049-4ba7-9459-22717023a81d",
-      "number": "98",
+      "number": "99",
       "title": "«Супергерл» против «Твое сердце будет разбито» и на чем играть в GTA 6?",
       "publication": "2026-07-13",
       "link": "https://geekcity.mave.digital/ep-99",
@@ -3893,7 +3956,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "6d20979e-d2e2-4986-8703-439d3cccc1ab",
-      "number": "99",
+      "number": "100",
       "title": "Ремейк Assassin’s Creed Black Flag, «Обсессия», «Очень Страшное Кино», «Зловещие мертвецы: Пекло»",
       "publication": "2026-08-10",
       "link": "https://geekcity.mave.digital/ep-100",
@@ -3943,7 +4006,7 @@ window.__TRIKO_DATA__ = {
     },
     {
       "guid": "4a30141f-89ef-4694-8720-13f9ba61c789",
-      "number": "100",
+      "number": "101",
       "title": "Сколько стоит организовать гик-фестиваль в России? В гостях ГикКон!",
       "publication": "2026-08-19",
       "link": "https://geekcity.mave.digital/ep-101",
