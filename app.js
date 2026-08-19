@@ -39,13 +39,7 @@ function renderChart() {
   const rows = [];
   for (let year = currentYear; year >= firstYear; year -= 1) {
     const weeks = [];
-    const weekCount = isoWeeksInYear(year);
-    for (let week = 1; week <= 53; week += 1) {
-      if (week > weekCount || (year === 2020 && week === 53)) {
-        weeks.push('<span class="week is-omitted" aria-hidden="true"></span>');
-        continue;
-      }
-
+    for (let week = 1; week <= 52; week += 1) {
       const date = dateFromIsoWeek(year, week);
       const key = `${year}-W${String(week).padStart(2, "0")}`;
       const found = byWeek.get(key) || [];
@@ -171,10 +165,6 @@ function isoWeekInfo(date) {
   };
 }
 
-function isoWeeksInYear(year) {
-  return isoWeekInfo(new Date(year, 11, 28, 12)).week;
-}
-
 function weekKey(date) {
   const { year, week } = isoWeekInfo(date);
   return `${year}-W${String(week).padStart(2, "0")}`;
@@ -210,15 +200,30 @@ function formatDuration(seconds) {
 }
 
 function renderTopics(episode) {
-  if (!episode.topics?.length) {
+  if (!episode.topics?.length && !episode.topicNote) {
     return '<p class="episode-topics-empty">Таймкоды не указаны в официальном описании выпуска.</p>';
   }
 
+  const hasTimecodes = episode.topics?.some((topic) => topic.time);
+  const topics = episode.topics?.length
+    ? `<p class="episode-topics__title">${hasTimecodes ? "Таймкоды" : "Основные темы"}</p>
+      <ul class="episode-topics">${episode.topics
+        .map(
+          (topic) => `<li${topic.time ? "" : ' class="is-untimed"'}>${
+            topic.time ? `<time>${escapeHtml(topic.time)}</time>` : ""
+          }<span>${escapeHtml(topic.title)}</span></li>`,
+        )
+        .join("")}</ul>`
+    : "";
+  const note = episode.topicNote
+    ? `<p class="episode-topics-note">${escapeHtml(episode.topicNote)}</p>`
+    : "";
+  const source = episode.topicsSource
+    ? `<a class="episode-topics-source" href="${escapeHtml(episode.topicsSource)}" target="_blank" rel="noreferrer">Источник на GeekCity</a>`
+    : "";
+
   return `<div class="episode-topics-wrap">
-    <p class="episode-topics__title">Таймкоды</p>
-    <ul class="episode-topics">${episode.topics
-      .map((topic) => `<li><time>${escapeHtml(topic.time)}</time><span>${escapeHtml(topic.title)}</span></li>`)
-      .join("")}</ul>
+    ${topics}${note}${source}
   </div>`;
 }
 

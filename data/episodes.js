@@ -396,7 +396,9 @@ window.__TRIKO_DATA__ = {
       "title": "Выпуск 10. Конфликт Disney и Sony. Его причины и последствия для Человека-Паука",
       "publication": "2019-09-05",
       "link": "https://geekcity.mave.digital/ep-10",
-      "duration": 3928
+      "duration": 3928,
+      "topicNote": "Таймкоды не публиковались: авторы сохранили цельный рассказ о киноадаптациях Человека-Паука.",
+      "topicsSource": "https://geekcity.ru/podkast-chut-vyshe-plintusa-vypusk-10-konflikt-disney-i-sony-ego-prichiny-i-posledstviya-dlya-cheloveka-pauka/"
     },
     {
       "guid": "48aa7cdc-014d-4bca-91ab-d587f37293cd",
@@ -528,7 +530,9 @@ window.__TRIKO_DATA__ = {
       "title": "Выпуск 15. Почему «Джокер» настолько хорош?",
       "publication": "2019-10-10",
       "link": "https://geekcity.mave.digital/ep-15",
-      "duration": 2351
+      "duration": 2351,
+      "topicNote": "Таймкоды не публиковались: выпуск посвящён одной теме — фильму «Джокер».",
+      "topicsSource": "https://geekcity.ru/podkast-chut-vyshe-plintusa-vypusk-15-pochemu-dzhoker-nastolko-xorosh/"
     },
     {
       "guid": "27732075-39e6-4e1f-b3cb-f106da7ae1be",
@@ -582,7 +586,26 @@ window.__TRIKO_DATA__ = {
       "title": "Выпуск 17. В чем гениальность «Хранителей»?",
       "publication": "2019-11-07",
       "link": "https://geekcity.mave.digital/ep-17",
-      "duration": 2803
+      "duration": 2803,
+      "topicNote": "В статье перечислены темы выпуска без отметок времени.",
+      "topicsSource": "https://geekcity.ru/podkast-chut-vyshe-plintusa-vypusk-17-v-chem-genialnost-xranitelej/",
+      "topics": [
+        {
+          "title": "Почему мы решили поговорить про «Хранителей»?"
+        },
+        {
+          "title": "Чем был известен Алан Мур до комикса?"
+        },
+        {
+          "title": "Что нового было в «Хранителях»?"
+        },
+        {
+          "title": "Почему экранизация Зака Снайдера сильно проигрывает первоисточнику и в чем ее основные проблемы?"
+        },
+        {
+          "title": "Before Watchmen, Doomsday Clock и другие попытки DC использовать вселенную Мура"
+        }
+      ]
     },
     {
       "guid": "90e7d973-6834-4363-a202-158e601b74ca",
@@ -590,7 +613,9 @@ window.__TRIKO_DATA__ = {
       "title": "Выпуск 18. Терминатор, который снова не смог",
       "publication": "2019-11-21",
       "link": "https://geekcity.mave.digital/ep-18",
-      "duration": 1653
+      "duration": 1653,
+      "topicNote": "Таймкоды не публиковались: выпуск целиком посвящен фильму «Терминатор: Темные Судьбы».",
+      "topicsSource": "https://geekcity.ru/podkast-chut-vyshe-plintusa-vypusk-18-terminator-kotoryj-snova-ne-smog/"
     },
     {
       "guid": "c2d65d23-2b53-41bc-ab72-f6854d5df6a8",
@@ -598,7 +623,32 @@ window.__TRIKO_DATA__ = {
       "title": "Подкаст возвращается! Обсуждаем нового «Паука» и подводим итоги года",
       "publication": "2021-12-27",
       "link": "https://geekcity.mave.digital/ep-19",
-      "duration": 5485
+      "duration": 5485,
+      "topicNote": "В статье перечислены темы выпуска без отметок времени.",
+      "topicsSource": "https://geekcity.ru/podkast-vozvrashhaetsya-obsuzhdaem-novogo-pauka-i-podvodim-itogi-goda/",
+      "topics": [
+        {
+          "title": "«Человек-Паук: Нет пути домой» — просто ААААА"
+        },
+        {
+          "title": "Чем нам запомнились новые сериалы Marvel для Disney+"
+        },
+        {
+          "title": "«Черная вдова» — not great, not terrible"
+        },
+        {
+          "title": "Что же все-таки не так со «Снайдеркатом»?"
+        },
+        {
+          "title": "«Майор Гром: Чумной доктор» — хорошее русское кино или политическая агитка?"
+        },
+        {
+          "title": "«Дюна» — хорошо, но ждем вторую часть"
+        },
+        {
+          "title": "«Не время умирать», или как Дэниел Крейг полюбил Вархаммер (что? да!)"
+        }
+      ]
     },
     {
       "guid": "f28f6d41-cce4-4382-a2ba-1dfb7d3aa700",
@@ -950,7 +1000,33 @@ window.__TRIKO_DATA__ = {
       "title": "Куда мы пропали на осень? | Черные Адамы и Пантеры, Андор и многое другое",
       "publication": "2022-12-23",
       "link": "https://geekcity.mave.digital/ep-30",
-      "duration": 4477
+      "duration": 4477,
+      "topics": [
+        {
+          "time": "00:00",
+          "title": "Кринжовые шутки про то, где мы были."
+        },
+        {
+          "time": "03:00",
+          "title": "восхваляем (не все) «Звездные Войны: Андор» и не можем выговорить имя Стеллан Скарсгард."
+        },
+        {
+          "time": "23:30",
+          "title": "Сереже понравился Cyberpunk: Edgerunners, Ваня (который начал проходить игру) и Никита травят шутки про аниме."
+        },
+        {
+          "time": "27:00",
+          "title": "Ваня плюется от Call of Duty: Modern Warfare 2, Никита почти плюется от Gotham Knights, Сережа кайфует от Ghost of Tsushima. Самые конченные шутки тут."
+        },
+        {
+          "time": "41:50",
+          "title": "«Черная Пантера: Ваканда Навеки» — хорошо, но есть нюансы."
+        },
+        {
+          "time": "51:30",
+          "title": "«Черный Адам» — фильм года, который изменил иерархию нашего IQ."
+        }
+      ]
     },
     {
       "guid": "1817a357-dc8c-41f4-8d0e-eb768277af4c",
@@ -1450,7 +1526,8 @@ window.__TRIKO_DATA__ = {
       "title": "Нам надоели кинокомиксы. Почему в жанре застой и что с этим делать?",
       "publication": "2024-02-15",
       "link": "https://geekcity.mave.digital/ep-45",
-      "duration": 4997
+      "duration": 4997,
+      "topicNote": "Таймкодов в этот раз не будет, так как тема одна на выпуск. Но вы узнаете, как покорить женщину свиданием с походом на «Морбиуса» (она в студии и прокомментирует это), как Сережа продюсирует Киновселенную Bubble и в каких он трусах на записи, а еще что принес в студию Ваня и что не смотрел Никита."
     },
     {
       "guid": "47812938-1b96-4605-a40a-354e832be6a9",
@@ -2044,7 +2121,19 @@ window.__TRIKO_DATA__ = {
       "title": "Роман Папсуев: «Сказки старой Руси» во всех проявлениях",
       "publication": "2024-12-24",
       "link": "https://geekcity.mave.digital/ep-63",
-      "duration": 7171
+      "duration": 7171,
+      "topicNote": "Темы выпуска опубликованы без отметок времени.",
+      "topics": [
+        {
+          "title": "Прошлое, настоящее и будущее «Сказок старой Руси»"
+        },
+        {
+          "title": "Погружение в славянскую мифологию, источники проекта и фейки"
+        },
+        {
+          "title": "Влияние «Сказок старой Руси» на популяризацию славянского фентези в стране"
+        }
+      ]
     },
     {
       "guid": "dce0861b-32c6-4535-abb7-e33dc9e161a6",
@@ -2362,7 +2451,30 @@ window.__TRIKO_DATA__ = {
       "title": "«Андор», «Сорвиголова», Clair Obscur: Expedition 33 и «Одни из Нас»",
       "publication": "2025-05-27",
       "link": "https://geekcity.mave.digital/ep-72",
-      "duration": 3848
+      "duration": 3848,
+      "topicsSource": "https://geekcity.ru/andor-sorvigolova-clair-obscur-expedition-33-i-odni-iz-nas-podkast-muzhchiny-v-triko/",
+      "topics": [
+        {
+          "time": "00:00",
+          "title": "вернулись, тру-экспириенс игры S.T.A.L.K.E.R. 2 на Xbox: баги даже на консолях"
+        },
+        {
+          "time": "05:40",
+          "title": "рефлексируем о финале 1 сезона «Сорвиголова: Рожденный Заново»"
+        },
+        {
+          "time": "11:20",
+          "title": "«Звездные Войны: Андор» — лучшие Star Wars на сегодня"
+        },
+        {
+          "time": "30:22",
+          "title": "эмоциональные качели 2 сезона сериала «Одни из Нас»"
+        },
+        {
+          "time": "47:32",
+          "title": "Clair Obscur: Expedition 33 — триумф французского гейминга вне Ubisoft"
+        }
+      ]
     },
     {
       "guid": "b9672de0-074e-4496-9387-b8ca1b506935",
@@ -2370,7 +2482,34 @@ window.__TRIKO_DATA__ = {
       "title": "«Громовержцы*», Doom: The Dark Ages, «Minecraft в кино» и «Грешники»",
       "publication": "2025-06-06",
       "link": "https://geekcity.mave.digital/ep-73",
-      "duration": 4449
+      "duration": 4449,
+      "topicsSource": "https://geekcity.ru/gromoverzhcy-doom-the-dark-ages-minecraft-v-kino-final-andora-i-greshniki-podkast-muzhchiny-v-triko/",
+      "topics": [
+        {
+          "time": "00:00",
+          "title": "Эксгмызационист и жизнь без Вани Скородумова"
+        },
+        {
+          "time": "04:46",
+          "title": "Никита признается в любви финалу «Андора» и рассказывает кулстори о фейле в кинотеатре"
+        },
+        {
+          "time": "09:00",
+          "title": "«Громовержцы*» — фильм Marvel, который смог через з?"
+        },
+        {
+          "time": "31:30",
+          "title": "Doom: The Dark Ages — хорошая игра, но…"
+        },
+        {
+          "time": "46:30",
+          "title": "«Грешники» — режиссерский триумф Райана Куглера"
+        },
+        {
+          "time": "56:37",
+          "title": "«Minecraft в кино» — 2 часа брейнрота, отвратительно, фильм года"
+        }
+      ]
     },
     {
       "guid": "e30ba469-8167-4ad5-814c-85d6101aeffc",
