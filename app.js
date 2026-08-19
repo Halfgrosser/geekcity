@@ -41,8 +41,8 @@ function renderChart() {
     const weeks = [];
     const weekCount = isoWeeksInYear(year);
     for (let week = 1; week <= 53; week += 1) {
-      if (week > weekCount) {
-        weeks.push('<span class="week is-empty" aria-hidden="true"></span>');
+      if (week > weekCount || (year === 2020 && week === 53)) {
+        weeks.push('<span class="week is-omitted" aria-hidden="true"></span>');
         continue;
       }
 
@@ -95,11 +95,7 @@ function showWeek(isoDate, found, state) {
           <div>
             <p class="episode-line__meta">${episode.number ? `Выпуск #${escapeHtml(episode.number)}` : "Спецвыпуск"}${episode.duration ? ` · ${formatDuration(episode.duration)}` : ""}</p>
             <h3>${escapeHtml(episode.title)}</h3>
-            ${episode.topics?.length ? `<ul class="episode-topics">${episode.topics
-              .map(
-                (topic) => `<li><time>${escapeHtml(topic.time)}</time><span>${escapeHtml(topic.title)}</span></li>`,
-              )
-              .join("")}</ul>` : ""}
+            ${renderTopics(episode)}
           </div>
           ${episode.link ? `<a href="${escapeHtml(episode.link)}" target="_blank" rel="noreferrer" aria-label="Открыть выпуск «${escapeHtml(episode.title)}»">Слушать ↗</a>` : ""}
         </article>`,
@@ -211,6 +207,19 @@ function formatDuration(seconds) {
   const hours = Math.floor(seconds / 3600);
   const minutes = Math.round((seconds % 3600) / 60);
   return hours ? `${hours} ч ${minutes} мин` : `${minutes} мин`;
+}
+
+function renderTopics(episode) {
+  if (!episode.topics?.length) {
+    return '<p class="episode-topics-empty">Таймкоды не указаны в официальном описании выпуска.</p>';
+  }
+
+  return `<div class="episode-topics-wrap">
+    <p class="episode-topics__title">Таймкоды</p>
+    <ul class="episode-topics">${episode.topics
+      .map((topic) => `<li><time>${escapeHtml(topic.time)}</time><span>${escapeHtml(topic.title)}</span></li>`)
+      .join("")}</ul>
+  </div>`;
 }
 
 function setText(id, text) {

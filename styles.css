@@ -298,6 +298,10 @@ h2 {
   opacity: 0.25;
 }
 
+.week.is-omitted {
+  visibility: hidden;
+}
+
 .week.is-multi::after {
   content: "";
   position: absolute;
@@ -367,9 +371,29 @@ h2 {
 .episode-topics {
   display: grid;
   gap: 8px;
-  margin: 18px 0 0;
+  margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.episode-topics-wrap,
+.episode-topics-empty {
+  margin-top: 18px;
+}
+
+.episode-topics__title {
+  margin: 0 0 10px;
+  color: var(--ink);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.episode-topics-empty {
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-style: italic;
 }
 
 .episode-topics li {
