@@ -9,6 +9,8 @@
   --blue-dark: #415fae;
   --red: #e02d20;
   --red-dark: #9f1e18;
+  --hiatus: #e9a49d;
+  --hiatus-dark: #d77d74;
   --yellow: #f2d83f;
   --future: #d3cdbf;
   --shadow: 8px 8px 0 rgba(23, 25, 31, 0.16);
@@ -247,7 +249,7 @@ h2 {
 }
 
 .legend__swatch.is-hiatus {
-  background: var(--red);
+  background: var(--hiatus);
 }
 
 .chart-row {
@@ -320,12 +322,12 @@ h2 {
 }
 
 .week.is-hiatus {
-  background: var(--red);
+  background: var(--hiatus);
 }
 
 .week.is-hiatus:hover,
 .week.is-hiatus:focus-visible {
-  background: var(--red-dark);
+  background: var(--hiatus-dark);
 }
 
 .week.is-future,
@@ -360,8 +362,8 @@ h2 {
 }
 
 .episode-card.is-pause {
-  background: #fff0eb;
-  box-shadow: 6px 6px 0 var(--red);
+  background: #fff5f2;
+  box-shadow: 6px 6px 0 var(--hiatus);
 }
 
 .episode-card__date,
@@ -381,10 +383,6 @@ h2 {
 }
 
 .episode-line {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 24px;
   padding: 16px 0;
   border-top: 1px solid var(--line);
 }
@@ -393,7 +391,14 @@ h2 {
   margin-top: 10px;
 }
 
-.episode-line a {
+.episode-line__heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.episode-listen {
   flex: 0 0 auto;
   padding: 9px 12px;
   border: 2px solid var(--ink);
@@ -510,7 +515,7 @@ h2 {
 
 .stat--accent {
   color: #fff;
-  background: var(--red);
+  background: var(--blue);
 }
 
 .stat--accent .stat__label,
@@ -519,7 +524,7 @@ h2 {
 }
 
 .stat--accent strong {
-  color: var(--yellow);
+  color: #fff;
 }
 
 .year-bars {
@@ -546,7 +551,7 @@ h2 {
 .year-bar__fill {
   display: block;
   height: 100%;
-  background: linear-gradient(90deg, var(--blue), var(--red));
+  background: var(--blue);
 }
 
 .year-bar__value {
@@ -626,7 +631,7 @@ h2 {
     min-height: 165px;
   }
 
-  .episode-line {
+  .episode-line__heading {
     align-items: flex-start;
     flex-direction: column;
     gap: 12px;
