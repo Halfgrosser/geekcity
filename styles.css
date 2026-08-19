@@ -349,7 +349,7 @@ h2 {
 
 .week.is-selected {
   outline: 3px solid var(--ink);
-  outline-offset: 2px;
+  outline-offset: -3px;
   z-index: 2;
 }
 
