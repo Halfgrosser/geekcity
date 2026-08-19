@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#17191f" />
+    <meta
+      name="description"
+      content="Календарь выпусков и пауз подкаста «Мужчины в трико» с 2019 года."
+    />
+    <title>Мужчины в трико — Hiatus Chart</title>
+    <link
+      rel="icon"
+      type="image/jpeg"
+      href="https://cdn.mave.digital/storage/podcasts/3ee31843-ed79-41fd-89ba-62edb9cbad05/images/ec6c7c8b-2cbb-4a6b-8eed-6e3f4a7db9e5_80.jpg"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Russo+One&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="hero">
+        <div class="hero__copy">
+          <p class="eyebrow">Архив с 2019 года</p>
+          <h1><span>Мужчины</span><br />в трико</h1>
+          <p class="hero__intro">История выпусков, затиший и героических возвращений.</p>
+          <a class="hero__link" href="https://geekcity.mave.digital/" target="_blank" rel="noreferrer">
+            Слушать подкаст ↗
+          </a>
+        </div>
+        <img
+          class="hero__cover"
+          src="https://cdn.mave.digital/storage/podcasts/3ee31843-ed79-41fd-89ba-62edb9cbad05/images/ec6c7c8b-2cbb-4a6b-8eed-6e3f4a7db9e5_600.jpg"
+          alt="Обложка подкаста «Мужчины в трико»"
+        />
+      </header>
+
+      <section class="panel calendar-panel" aria-labelledby="chart-title">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">Лента времени</p>
+            <h2 id="chart-title">Когда выходили выпуски</h2>
+          </div>
+          <div class="legend" aria-label="Легенда">
+            <span><i class="legend__swatch is-release"></i>выпуск</span>
+            <span><i class="legend__swatch is-hiatus"></i>пауза</span>
+            <span class="legend__hint">клетка = неделя</span>
+          </div>
+        </div>
+
+        <div class="chart-scroll">
+          <div class="month-axis" aria-hidden="true">
+            <span></span><span>янв</span><span>фев</span><span>мар</span><span>апр</span><span>май</span><span>июн</span>
+            <span>июл</span><span>авг</span><span>сен</span><span>окт</span><span>ноя</span><span>дек</span>
+          </div>
+          <div id="chart" class="chart" aria-live="polite"></div>
+        </div>
+        <div id="episode-card" class="episode-card" hidden></div>
+      </section>
+
+      <section class="stats-grid" aria-label="Статистика">
+        <article class="stat panel">
+          <span class="stat__label">Выпусков</span>
+          <strong id="stat-releases">—</strong>
+          <span>в официальном RSS</span>
+        </article>
+        <article class="stat panel">
+          <span class="stat__label">Текущая пауза</span>
+          <strong id="stat-current">—</strong>
+          <span id="stat-current-note">полных недель</span>
+        </article>
+        <article class="stat panel">
+          <span class="stat__label">Самая длинная пауза</span>
+          <strong id="stat-longest">—</strong>
+          <span>
+            <span id="stat-longest-note">недель без выпусков</span>
+            <small id="stat-longest-range" class="stat__range">—</small>
+          </span>
+        </article>
+        <article class="stat stat--accent panel">
+          <span class="stat__label">Последний выпуск</span>
+          <strong id="stat-latest">—</strong>
+          <span id="stat-latest-note">—</span>
+        </article>
+      </section>
+
+      <section class="panel rhythm" aria-labelledby="rhythm-title">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">По годам</p>
+            <h2 id="rhythm-title">Ритм публикаций</h2>
+          </div>
+        </div>
+        <div id="year-bars" class="year-bars"></div>
+      </section>
+
+      <footer class="footer">
+        <p>Данные: <a href="https://cloud.mave.digital/34811" target="_blank" rel="noreferrer">официальный RSS Mave</a>.</p>
+        <p id="updated-at"></p>
+      </footer>
+    </main>
+
+    <script src="./data/episodes.js"></script>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
