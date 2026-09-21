@@ -2,7 +2,7 @@ window.__TRIKO_DATA__ = {
   "source": "https://cloud.mave.digital/34811",
   "title": "Мужчины в трико",
   "cover": "https://cdn.mave.digital/storage/podcasts/3ee31843-ed79-41fd-89ba-62edb9cbad05/images/ec6c7c8b-2cbb-4a6b-8eed-6e3f4a7db9e5.jpg",
-  "updatedAt": "2026-08-19",
+  "updatedAt": "2026-09-18",
   "episodes": [
     {
       "guid": "manual-pilot-episode",
@@ -4087,6 +4087,44 @@ window.__TRIKO_DATA__ = {
         {
           "time": "01:19:20",
           "title": "До новых встреч (на ГикКоне)!"
+        }
+      ]
+    },
+    {
+      "guid": "8ea28ab1-34f9-4ffb-82ed-baaabc9cc436",
+      "number": "102",
+      "title": "В гостях Роман Котков из Bubble: Человек-Паук, Люди Икс, Зеленые Фонари, Одиссея и русские на San Diego Comic-Con",
+      "publication": "2026-09-18",
+      "link": "https://geekcity.mave.digital/ep-102",
+      "duration": 6760,
+      "topics": [
+        {
+          "time": "00:00:00",
+          "title": "Приветствуем гостя и узнаем, что сверлили Сереге"
+        },
+        {
+          "time": "00:03:12",
+          "title": "Кого легче всего обнять на San Diego Comic-Con"
+        },
+        {
+          "time": "00:23:12",
+          "title": "«Человек-Паук: Новый День» – как красные ниндзя нагадили (?) в крутое кино"
+        },
+        {
+          "time": "01:10:00",
+          "title": "«Одиссея» Кристофера Нолана – посмотрели абсолют синема по рецепту Гения"
+        },
+        {
+          "time": "01:25:06",
+          "title": "«Фонари» – как дела с повесткой, Зеленые?"
+        },
+        {
+          "time": "01:43:34",
+          "title": "Второй сезон «Люди Икс ‘97» напоминает, что у нас год Людей Икс"
+        },
+        {
+          "time": "01:51:11",
+          "title": "До новых встреч"
         }
       ]
     }
