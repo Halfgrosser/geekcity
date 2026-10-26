@@ -2,7 +2,7 @@ window.__TRIKO_DATA__ = {
   "source": "https://cloud.mave.digital/34811",
   "title": "Мужчины в трико",
   "cover": "https://cdn.mave.digital/storage/podcasts/3ee31843-ed79-41fd-89ba-62edb9cbad05/images/ec6c7c8b-2cbb-4a6b-8eed-6e3f4a7db9e5.jpg",
-  "updatedAt": "2026-09-18",
+  "updatedAt": "2026-10-21",
   "episodes": [
     {
       "guid": "manual-pilot-episode",
@@ -4124,6 +4124,56 @@ window.__TRIKO_DATA__ = {
         },
         {
           "time": "01:51:11",
+          "title": "До новых встреч"
+        }
+      ]
+    },
+    {
+      "guid": "fce0db83-dda3-4c36-9643-e09214a56a6b",
+      "number": "103",
+      "title": "«Обитель Зла», Росомаха, «Кэрри», Silent Hill: Townfall, Control Resonant, «Тед Лассо» и не только",
+      "publication": "2026-10-21",
+      "link": "https://geekcity.mave.digital/ep-103",
+      "duration": 5985,
+      "topics": [
+        {
+          "time": "00:00:00",
+          "title": "Приветствие"
+        },
+        {
+          "time": "00:06:32",
+          "title": "«Фонари» - отлично снятая паршивая экранизация комиксов DC"
+        },
+        {
+          "time": "00:27:31",
+          "title": "«Обитель Зла» - Зак Креггер пугает теперь в Раккун-Сити"
+        },
+        {
+          "time": "00:47:34",
+          "title": "Marvel’s Wolverine - как базовый 7/10 показывает деградацию дискурса по видеоиграм"
+        },
+        {
+          "time": "01:05:35",
+          "title": "Control Resonant - те самые два фаната Remedy обсуждают новую игру"
+        },
+        {
+          "time": "01:16:35",
+          "title": "Silent Hill: Townfall - почему главный фанат серии ждет скидок?"
+        },
+        {
+          "time": "01:18:25",
+          "title": "«Кэрри» - самый экранизируемый роман Стивена Кинга смог удивить"
+        },
+        {
+          "time": "01:29:40",
+          "title": "3 сезон «Укрытие» - что, если бы у сериала Lost был план?"
+        },
+        {
+          "time": "01:32:02",
+          "title": "4 сезон «Тед Лассо» - вторая жизнь после закрытия сериала: стоило того?"
+        },
+        {
+          "time": "01:38:08",
           "title": "До новых встреч"
         }
       ]
